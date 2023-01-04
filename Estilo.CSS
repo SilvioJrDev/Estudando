@@ -53,11 +53,15 @@ Body{
 }
 
 #Idade{
-    
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
 
 #Habilitacao {
-
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
 }
 
 .Titulos_Grupos{
