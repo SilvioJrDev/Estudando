@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+Body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#Contatos{
+    margin: inherit;
+    padding: inherit;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#Tel{
+    margin: inherit;
+    padding: 0% 2% 0% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+}
+
+#Email{
+    margin: inherit;
+    padding: 0% 2% 0% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+}
+
+#Cabecalho {
+    margin: inherit;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Nome{
+    display: flex;
+    flex-direction: column;
+}
+
+#Cabecalho_2{
+    margin: inherit;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Idade{
+    
+}
+
+#Habilitacao {
+
+}
+
+.Titulos_Grupos{
+    font-size: 50px;
+    padding-left: 20%;
+}
+
+.Divs{
+    border: 5px solid black;
+}
