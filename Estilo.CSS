@@ -12,7 +12,6 @@ Body{
     padding: inherit;
     display: flex;
     flex-direction: column;
-    border: none;
 }
 
 #Tel{
@@ -21,7 +20,6 @@ Body{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    border: none;
 }
 
 #Email{
@@ -30,15 +28,12 @@ Body{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    border: none;
 }
 
 #Cabecalho {
     margin: inherit;
-    font-size: 30px;
     display: flex;
     justify-content: center;
-    border: none;
 }
 
 #C1{
@@ -49,42 +44,45 @@ Body{
     Flex: 2;
 }
 
-#C3{
-    flex: 1;
-}
-
-#h1_Nome{
-    margin: 1px;
-}
-
-#Cabecalho_2{
+#Cabecalho_Nome {
     margin: inherit;
     font-size: 30px;
     display: flex;
     justify-content: center;
 }
 
+#h1_Nome{
+    margin: 0px;
+}
+
+#Cabecalho_IdadeHabilitacao{
+    margin: inherit;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
 h6{
-    margin: 1px;
+    margin: 0px;
 }
 
-/*#Idade{
-    display: flex;
-    flex-direction: row;
+#C3{
     flex: 1;
 }
 
-#Habilitacao {
+#Objetivos{
     display: flex;
-    flex-direction: row-reverse;
-    flex: 1;
-}*/
+    flex-direction: column;
+}
 
 .Titulos_Grupos{
+    display: flex;
+    justify-content: center;
     font-size: 50px;
-    padding-left: 20%;
+    margin-top: 20px;
 }
 
-.Divs{
-    border: 5px solid black;
+.Textos_Grupos{
+    display: flex;
+    justify-content: center;
 }
