@@ -70,6 +70,23 @@ h6{
     flex: 1;
 }
 
+#Container{
+    display: flex;
+}
+
+#Container_01{
+    flex: 1;
+}
+
+#Container_02{
+    flex: 2;
+}
+
+#Container_03{
+    flex: 1;
+}
+
+
 #Objetivos{
     display: flex;
     flex-direction: column;
@@ -80,6 +97,7 @@ h6{
     justify-content: center;
     font-size: 50px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .Textos_Grupos{
