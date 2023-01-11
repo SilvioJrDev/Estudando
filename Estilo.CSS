@@ -7,6 +7,22 @@ Body{
     padding: 0%;
 }
 
+#Container{
+    display: flex;
+}
+
+#Container_01{
+    flex: 1;
+}
+
+#Container_02{
+    flex: 2;
+}
+
+#Container_03{
+    flex: 1;
+}
+
 #Contatos{
     margin: inherit;
     padding: inherit;
@@ -33,15 +49,7 @@ Body{
 #Cabecalho {
     margin: inherit;
     display: flex;
-    justify-content: center;
-}
-
-#C1{
-    flex: 1;
-}
-
-#C2{
-    Flex: 2;
+    flex-direction: column;
 }
 
 #Cabecalho_Nome {
@@ -64,32 +72,6 @@ Body{
 
 h6{
     margin: 0px;
-}
-
-#C3{
-    flex: 1;
-}
-
-#Container{
-    display: flex;
-}
-
-#Container_01{
-    flex: 1;
-}
-
-#Container_02{
-    flex: 2;
-}
-
-#Container_03{
-    flex: 1;
-}
-
-
-#Objetivos{
-    display: flex;
-    flex-direction: column;
 }
 
 .Titulos_Grupos{
